@@ -1,4 +1,3 @@
-import DownloadCv from "@/components/DownloadCv";
 
 type Skill = {
   title: string;
@@ -34,8 +33,6 @@ const About = () => {
         I'm passionate about delivering high-quality solutions, optimizing user experiences, and
         continuously learning new tools and frameworks to stay ahead in the fast-paced tech world.
       </div>
-
-      {/* <DownloadCv /> */}
 
       <div className="flex flex-col items-center gap-4 w-full max-w-3xl">
         <hr className="w-32 border-gray-400" />
