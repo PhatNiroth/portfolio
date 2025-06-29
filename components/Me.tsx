@@ -37,7 +37,7 @@ const Me = () => {
 
         <div className="w-full md:w-1/2 flex flex-col justify-center gap-6 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
-            Hi, I'm a Full Stack Developer
+            Hi, I&apos;m a Full Stack Developer
           </h1>
           <p className="text-lg text-gray-700 leading-relaxed">
             I’m passionate about building <strong>fast</strong>, <strong>scalable</strong>, and{" "}

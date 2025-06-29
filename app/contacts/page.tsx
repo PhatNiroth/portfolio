@@ -23,10 +23,10 @@ const Contact = () => {
       <div className="w-full max-w-5xl flex flex-col md:flex-row gap-12">
         {/* Contact Info */}
         <div className="flex-1 flex flex-col justify-center gap-6">
-          <h2 className="text-4xl font-bold text-gray-800 mb-2">Let's get in touch</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-2">Let&apos;s get in touch</h2>
           <p className="text-gray-600 text-lg">
             Whether you have a question, a project, or just want to say hello – feel free to drop a
-            message. I’ll try to respond within 24 hours.
+            message. I&apos;ll try to respond within 24 hours.
           </p>
 
           <div className="mt-4 text-gray-700 space-y-4 text-base">
