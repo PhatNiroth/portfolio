@@ -1,7 +1,7 @@
 import Me from "../components/Me"
-import About from "./about/page";
-import Contact from "./contacts/page";
-import WorkExperience from "./WorkExperience/page";
+import About from "../components/about";
+import Contact from "../components/contact";
+import WorkExperience from "../components/workExperience";
 
 const Home = () => {
   return (

@@ -1,13 +1,21 @@
 type Skill = {
     title: string;
-    image: string; // Optional: for icons later
+    image: string;
   };
   
   const About = () => {
     const techSkills: Skill[] = [
+      { title: "HTML", image: "" },
+      { title: "CSS", image: "" },
+      { title: "Bootstrap", image: "" },
+      { title: "Sass", image: "" },
+      { title: "Figma", image: "" },
       { title: "JavaScript", image: "" },
       { title: "TypeScript", image: "" },
       { title: "ReactJS", image: "" },
+      { title: "Java", image: "" },
+      { title: "Linux OS", image: "" },
+      { title: "React Native", image: "" },
       { title: "Next.js", image: "" },
       { title: "PHP", image: "" },
       { title: "CodeIgniter", image: "" },
@@ -15,7 +23,14 @@ type Skill = {
       { title: "C#", image: "" },
       { title: "Docker", image: "" },
       { title: "Version Control", image: "" },
+      { title: "Git", image: "" },
+      { title: "Agile", image: "" },
+      { title: "Scrum", image: "" },
       { title: "GitHub", image: "" },
+      { title: "Blocket", image: "" },
+      { title: "Large Language Model", image: "" },
+      { title: "GitLab", image: "" },
+      { title: "Ngin-X", image: "" },
       { title: "CI/CD", image: "" },
     ];
   
@@ -54,8 +69,6 @@ type Skill = {
             ))}
           </div>
         </div>
-  
-        <hr className="w-32 border-gray-400" />
       </section>
     );
   };

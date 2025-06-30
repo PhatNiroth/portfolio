@@ -26,7 +26,7 @@ const Me = () => {
       <div className="flex flex-col md:flex-row items-center w-full max-w-6xl gap-12">
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/mee.jpg"
+            src="/niroth.jpg"
             alt="Profile picture"
             width={400}
             height={400}
@@ -37,7 +37,7 @@ const Me = () => {
 
         <div className="w-full md:w-1/2 flex flex-col justify-center gap-6 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
-            Hi, I&apos;m a Full Stack Developer
+            Hi, I&apos;m Niroth. a Full Stack Developer
           </h1>
           <p className="text-lg text-gray-700 leading-relaxed">
             I’m passionate about building <strong>fast</strong>, <strong>scalable</strong>, and{" "}
